@@ -2,7 +2,7 @@
 
 I'm an AI Test Engineer at the USDA, building toward applied ML and AI engineering for biomedical and space research.
 
-I'm spending the next 12 months — 30 to 60 minutes a day, public from day one — learning to build production-grade AI systems end to end. Modern Python tooling, agentic LLM workflows, real model training, paper reproductions.
+I'm spending the next 12 months — 30 to 60 minutes a day, public from day one. I'll be learning to build production-grade AI systems end to end. Modern Python tooling, agentic LLM workflows, real model training, paper reproductions.
 
 ### What I'm building right now
 
@@ -24,7 +24,7 @@ Python 3.12 · `uv` · `ruff` · `pyright` · `pytest` · `pre-commit` · GitHub
 
 ### Principles
 
-- **Production-quality from day one.** Tests, types, lint, CI on every project, no exceptions.
+- **Production-quality from day one.** Tests, types, lint, CI on every project.
 - **Build in public.** All curriculum projects are public from the first commit.
 - **Mental models over tricks.** The point is durable understanding, not stacking shortcuts.
 - **Multi-provider fluency.** No single-vendor blind spots.
@@ -32,7 +32,4 @@ Python 3.12 · `uv` · `ruff` · `pyright` · `pytest` · `pre-commit` · GitHub
 ### Connect
 
 Email: [elukemarshall@gmail.com](mailto:elukemarshall@gmail.com)
-
----
-
-*Following a structured 12-month curriculum. The work is the resume.*
+*

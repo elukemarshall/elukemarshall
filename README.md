@@ -15,29 +15,29 @@ I'm building a public portfolio around one claim:
 - Designing **`pubmed-digest`**, a PubMed literature digest CLI for biotech
   research workflows. The first version will compare multiple LLM backends on
   quality, latency, cost, and citation discipline.
-- Maintaining **[fabrica](https://github.com/elukemarshall/fabrica)**, the
-  Python project template that future portfolio projects inherit from.
+- Maintaining a **[Python AI/ML project template](https://github.com/elukemarshall/fabrica)**
+  that future portfolio projects inherit from.
 - Following a structured 12-month curriculum focused on biotech AI systems,
   model evaluation, applied ML, and technical communication.
 
 ### Shipped
 
-- **[fabrica](https://github.com/elukemarshall/fabrica)** - a modern Python
-  template with `uv`, `ruff`, strict `pyright`, `pytest`, pre-commit, GitHub
-  Actions, an ADR, and a reusable evaluation scaffold.
+- **[Python AI/ML project template](https://github.com/elukemarshall/fabrica)** -
+  a modern Python template with `uv`, `ruff`, strict `pyright`, `pytest`,
+  pre-commit, GitHub Actions, an ADR, and a reusable evaluation scaffold.
 
 ### Roadmap
 
 Planned public projects, in rough order:
 
 - **`pubmed-digest`** - multi-model biomedical literature summarization.
-- **`mcp-bioinformatics`** - a narrow MCP server for biomedical APIs.
-- **`biomed-scout`** - retrieval, citations, model routing, and real evals for
-  biomedical research workflows.
-- **`nanogpt-biomed`** - a small transformer trained from scratch on a biomedical
-  corpus to build low-level attention and training-loop intuition.
-- **`biomed-reranker`** and a domain fine-tune - model adaptation work measured
-  against baseline and frontier systems.
+- **`bioinformatics-mcp-server`** - a narrow MCP server for biomedical APIs.
+- **`biomedical-research-agent`** - retrieval, citations, model routing, and
+  real evals for biomedical research workflows.
+- **`biomedical-transformer-from-scratch`** - a small transformer trained on a
+  biomedical corpus to build low-level attention and training-loop intuition.
+- **`biomedical-reranker`** and a domain fine-tune - model adaptation work
+  measured against baseline and frontier systems.
 - A paper reproduction and applied biotech capstone once the foundation is real.
 
 ### Stack

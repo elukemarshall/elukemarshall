@@ -12,9 +12,11 @@ I'm building a public portfolio around one claim:
 
 ### Now
 
-- Designing **`pubmed-digest`**, a PubMed literature digest CLI for biotech
-  research workflows. The first version will compare multiple LLM backends on
-  quality, latency, cost, and citation discipline.
+- Building **[`pubmed-digest`](https://github.com/elukemarshall/pubmed-digest)**,
+  a PubMed literature digest CLI for biotech research workflows. Schemas,
+  config, CI, and eval fixtures are in place; retrieval, ranking, and live
+  model wiring land next. The first version will compare multiple LLM backends
+  on quality, latency, cost, and citation discipline.
 - Maintaining a **[Python AI/ML project template](https://github.com/elukemarshall/fabrica)**
   that future portfolio projects inherit from.
 - Following a structured 12-month curriculum focused on biotech AI systems,

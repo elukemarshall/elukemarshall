@@ -1,68 +1,72 @@
 ## Hi, I'm Luke
 
-AI Test Engineer at the USDA, building toward a biotech-first AI/ML specialist
-career across applied ML engineering, solutions engineering, technical sales,
-and independent product work.
+Software Development Engineer in Test at TSPi (an Abt Global company), working
+on USDA federal delivery — I build automated test systems for regulated
+software and ship agentic AI tooling inside a federal engineering org. I'm
+pointing that combination at biotech.
 
-I'm building a public portfolio around one claim:
+The claim this portfolio backs:
 
-> I build and evaluate biotech AI systems: production-grade tools, model
-> benchmarks, domain retrieval workflows, fine-tunes, research reproductions,
-> and clear technical tradeoff writeups.
+> I build and evaluate AI systems to production discipline — tests, types, CI,
+> benchmarks, and clear tradeoff writeups — in domains where correctness is
+> regulated.
+
+### Track record
+
+- Sole owner of a federal compliance test lane: 300+ automated UI/API/SQL
+  tests in Azure DevOps, ~40% personally authored, sustained 100% automation
+  pass rate and ≥80% coverage sprint over sprint.
+- Selected for USDA's GitHub Copilot pilot (~500 engineers); built multi-agent
+  work-delineation tooling that was adopted across the pilot and demoed it to
+  the full engineering org.
+- Serve on the pilot-transition committee (8 USDA agencies) and its agentic
+  builders subcommittee — defining department-wide repo standards for
+  agent-based development (agent instruction files, security review
+  procedures, common-use structures).
+- Delivered a company-wide technical demo (200–300 attendees) on AI-assisted
+  QA workflows.
 
 ### Now
 
-- Building **[`pubmed-digest`](https://github.com/elukemarshall/pubmed-digest)**,
-  a PubMed literature digest CLI for biotech research workflows. Schemas,
+- **[`pubmed-digest`](https://github.com/elukemarshall/pubmed-digest)** — a
+  PubMed literature triage CLI for biotech research workflows. Schemas,
   config, CI, and eval fixtures are in place; retrieval, ranking, and live
-  model wiring land next. The first version will compare multiple LLM backends
-  on quality, latency, cost, and citation discipline.
-- Maintaining a **[Python AI/ML project template](https://github.com/elukemarshall/fabrica)**
-  that future portfolio projects inherit from.
-- Following a structured 12-month curriculum focused on biotech AI systems,
-  model evaluation, applied ML, and technical communication.
+  model wiring land next. V1 compares multiple LLM backends on quality,
+  latency, cost, and citation discipline.
+- **[`fabrica`](https://github.com/elukemarshall/fabrica)** — the Python
+  AI/ML project template my portfolio projects inherit from (`uv`, `ruff`,
+  strict `pyright`, `pytest`, pre-commit, GitHub Actions, ADRs, eval
+  scaffold). Shipped and in use.
 
-### Shipped
+### Next
 
-- **[Python AI/ML project template](https://github.com/elukemarshall/fabrica)** -
-  a modern Python template with `uv`, `ruff`, strict `pyright`, `pytest`,
-  pre-commit, GitHub Actions, an ADR, and a reusable evaluation scaffold.
+One project at a time, shipped before the next starts:
 
-### Roadmap
-
-Planned public projects, in rough order:
-
-- **`pubmed-digest`** - multi-model biomedical literature summarization.
-- **`bioinformatics-mcp-server`** - a narrow MCP server for biomedical APIs.
-- **`biomedical-research-agent`** - retrieval, citations, model routing, and
-  real evals for biomedical research workflows.
-- **`biomedical-transformer-from-scratch`** - a small transformer trained on a
-  biomedical corpus to build low-level attention and training-loop intuition.
-- **`biomedical-reranker`** and a domain fine-tune - model adaptation work
-  measured against baseline and frontier systems.
-- A paper reproduction and applied biotech capstone once the foundation is real.
+- `pubmed-digest` v1 with reproducible multi-model benchmarks.
+- A fail-closed data-classification router: sensitive workloads route to
+  local models only, and refuse rather than fail open — the routing
+  discipline regulated AI deployment actually needs.
 
 ### Stack
 
-Python 3.12, `uv`, `ruff`, `pyright`, `pytest`, pre-commit, GitHub Actions,
-Pydantic, LiteLLM, MCP, PyTorch, Hugging Face, LoRA/QLoRA,
-`sentence-transformers`, vector databases, structured logging, and reproducible
-evaluation harnesses.
+Working daily: Python 3.12, `uv`, `ruff`, `pyright`, `pytest`, pre-commit,
+GitHub Actions, Pydantic, Selenium/C#/.NET, Azure DevOps, structured logging,
+reproducible eval harnesses. Building with: LiteLLM, MCP, local model serving
+(Ollama), vector retrieval.
 
 **Multi-model by design.** Provider choice is a benchmarked engineering
 decision, not a default. Projects compare frontier APIs, cheaper baselines,
-OpenRouter/open-weight options, and biomedical specialist models when the task
-justifies it.
+and open-weight options when the task justifies it.
 
 ### Principles
 
 1. **Production-quality from day one.** Tests, types, lint, and CI are part of
    the work, not cleanup at the end.
-2. **Biotech first.** If a project could belong to anyone, the framing is too
-   generic.
+2. **Regulated first.** I build for environments where correctness is audited,
+   not assumed.
 3. **Benchmarks over preferences.** Model choice has to be defended with
    evidence.
-4. **Communication is part of the skill.** Good demos, briefs, and writeups make
-   the work legible.
+4. **Communication is part of the skill.** Good demos, briefs, and writeups
+   make the work legible.
 5. **The work is the resume.** Public artifacts should show taste, judgment,
    and follow-through.
